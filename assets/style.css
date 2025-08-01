@@ -251,6 +251,13 @@ main.page {
   display: block;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* Mobiele weergave - schermen kleiner dan 768px */
 @media (max-width: 768px) {
   html, body {
