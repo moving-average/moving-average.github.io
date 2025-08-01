@@ -6,7 +6,7 @@ intro: |
   **Website:** [http://www.algebrakit.nl/](https://algebrakit.com/)
 
   **Together with:**
-  - Martijn Slob: [pekka.j.rasanen@utu.fi](mailto:pekka.j.rasanen@utu.fi)
+  - Martijn Slob
   - Lieke van den Biggelaar
 ---
 

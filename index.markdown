@@ -15,8 +15,12 @@ cards:
     extra_image_left: /assets/img/logo_ville.png
     extra_image_center: /assets/img/logo_eduten.png
     extra_image_right: /assets/img/logo_turku.svg
-    text: This study uses smart data analysis to uncover children with exceptional subitizing patterns, early indicators of math difficulties like dyscalculia. The findings, published in ECML PKDD 2024, show how targeted pattern discovery can support early educational assessment.
-    
+    text: |
+      This study uses smart data analysis to uncover children with exceptional subitizing patterns, early indicators of math difficulties like dyscalculia. The findings, published in ECML PKDD 2024, show how targeted pattern discovery can support early educational assessment.
+        **Together with:**
+        - Prof. Pekka Räsänen: [pekka.j.rasanen@utu.fi](mailto:pekka.j.rasanen@utu.fi)
+        - Prof. Mikko-Jussi Laakso: [ jacob.paul@unimelb.edu.au](mailto:jacob.paul@unimelb.edu.au)
+
     link: /usecase1
   - title: Quality control of math exercises
     image: /assets/img/witblauw.svg
