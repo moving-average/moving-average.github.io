@@ -255,6 +255,7 @@ main.page {
 
 .image-text-block {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
@@ -264,7 +265,6 @@ main.page {
   max-width: 40%;
   flex-shrink: 0;
 }
-
 
 /* Mobiele weergave - schermen kleiner dan 768px */
 @media (max-width: 768px) {
@@ -342,6 +342,7 @@ main.page {
     width: 100%;
     height: auto;
   }
+  
 }
 
 
