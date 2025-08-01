@@ -251,7 +251,7 @@ main.page {
   display: block;
 }
 
-/* ✅ Mobiele weergave - schermen kleiner dan 768px */
+/* Mobiele weergave - schermen kleiner dan 768px */
 @media (max-width: 768px) {
   html, body {
     margin: 0;
@@ -295,6 +295,11 @@ main.page {
   nav a {
     width: 100%;
     text-align: left;
+    white-space: normal;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    box-sizing: border-box;
+    word-break: break-word;
   }
 
   .dropdown-content {
