@@ -30,8 +30,8 @@ intro: |
 
 ## Dot enumeration
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem;">
-  <img src="/assets/img/algebrakit4.png" alt="Algebrakit4 image" style="max-width: 40%; flex-shrink: 0;" />
+<div class="image-text-block">
+  <img src="/assets/img/algebrakit4.png" alt="Algebrakit4 image" class="responsive-inline-img" />
   <div style="flex: 1; min-width: 0;">
     <p>The range where you can see the number of dots, is called the <strong>subitizing range</strong>. The range where you have to count the number of dots, is called the <strong>counting range</strong>.</p>
     <p>These number processing skills are predictors of math learning ability.</p>
