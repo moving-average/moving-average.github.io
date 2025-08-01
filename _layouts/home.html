@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <a href="/">
+          <img src="/assets/img/logo.svg" alt="Site Logo" class="logo-img" />
+        </a>
+      </div>
+      <h1><a href="/" class="site-title">{{ site.title }}</a></h1>
+    </div>
+    <nav>
+      <a href="/about">About</a>
+      <a href="/founder">Founder</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Use Cases ▾
+        </button>
+        <div class="dropdown-content">
+          <a href="/usecase1">Dyscalculia</a>
+          <a href="/usecase2">Quality Control</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>{{ page.intro | markdownify}}</p>
+    </div>
+
+    <div class="cards">
+      {% for card in page.cards %}
+    <div class="card">
+      <img src="{{ card.image }}" alt="{{ card.title }}">
+      <h3>{{ card.title }}</h3>
+      <p>{{ card.text }}</p>
+      <a href="{{ card.link }}"><button>See more</button></a>
+      {% if card.extra_image_left or card.extra_image_center or card.extra_image_right %}
+      <div class="extra-images">
+        {% if card.extra_image_left %}
+        <img src="{{ card.extra_image_left }}" alt="Extra afbeelding voor {{ card.title }}">
+        {% endif %}
+        {% if card.extra_image_center %}
+        <img src="{{ card.extra_image_center }}" alt="Rechter afbeelding voor {{ card.title }}">
+        {% endif %}
+        {% if card.extra_image_right %}
+        <img src="{{ card.extra_image_right }}" alt="Rechter afbeelding voor {{ card.title }}">
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  </main>
+
+  <footer>
+    View on <a href="https://github.com/">GitHub</a>
+  </footer>
+</body>
+</html>
+
+

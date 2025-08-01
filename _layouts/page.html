@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <a href="/">
+          <img src="/assets/img/logo.svg" alt="Site Logo" class="logo-img" />
+        </a>
+      </div>
+      <h1><a href="/" class="site-title">{{ site.title }}</a></h1>
+    </div>
+    <nav>
+      <a href="/about">About</a>
+      <a href="/founder">Founder</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Use Cases ▾
+        </button>
+        <div class="dropdown-content">
+          <a href="/usecase1">Dyscalculia</a>
+          <a href="/usecase2">Quality Control</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+  <div class="intro-with-image">
+    <img src="{{page.image}}" alt="{{image.title}}" class="profile-img" />
+    <div class="intro-text">
+      <h2>{{ page.title }}</h2>
+      {% if page.intro %}
+        {{ page.intro | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+</main>
+
+
+  <footer>
+    View on <a href="https://github.com/">GitHub</a>
+  </footer>
+</body>
+</html>
+
