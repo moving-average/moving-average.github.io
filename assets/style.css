@@ -265,6 +265,13 @@ main.page {
     gap: 1rem;
   }
 
+  .logo-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
   nav {
     flex-direction: column;
     width: 100%;
@@ -299,7 +306,6 @@ main.page {
     font-size: 0.95rem;
     padding: 0.5rem 0.75rem;
     box-sizing: border-box;
-    word-break: break-word;
   }
 
   .dropdown-content {
@@ -312,5 +318,6 @@ main.page {
     display: block;
   }
 }
+
 
 
