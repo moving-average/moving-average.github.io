@@ -14,15 +14,15 @@ intro: |
 
 ## Discovering subgroups of children with dyscalculia
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-  <img src="/assets/img/algebrakit1.png" alt="Algebrakit1 image" style="max-width: 40%; flex-shrink: 0;" />
+<div class="image-text-block">
+  <img src="/assets/img/algebrakit1.png" alt="Algebrakit1 image" class="responsive-inline-img" />
   <div>
     <p> Per child: 50 items per task. </p>
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-  <img src="/assets/img/algebrakit3.png" alt="Algebrakit3 image" style="max-width: 40%; flex-shrink: 0;" />
+<div class="image-text-block">
+  <img src="/assets/img/algebrakit3.png" alt="Algebrakit3 image" class="responsive-inline-img" />
   <div>
     <p> Per child: as many items as possible in 3 minutes. </p>
   </div>
