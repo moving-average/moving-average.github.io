@@ -278,7 +278,13 @@ main.page {
   gap: 2rem;
 }
 
-.hero-section img {
+.hero-image {
+  flex: 1;
+  min-width: 280px;
+  max-width: 45%;
+}
+
+.hero-image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -289,15 +295,10 @@ main.page {
   min-width: 280px;
 }
 
-.hero-image {
-  flex: 1;
-  min-width: 280px;
-  max-width: 30%;
-}
-
 .hero-text h2 {
   font-size: 1.9rem;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .hero-text ul {
@@ -308,6 +309,8 @@ main.page {
 
 .hero-text ul li {
   margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .hero-buttons {
@@ -315,21 +318,43 @@ main.page {
   gap: 1rem;
 }
 
-.hero-buttons a button {
-  border: none;
+.hero-btn {
+  display: inline-block;
   padding: 0.75rem 1.25rem;
-  color: white;
-  font-weight: 600;
+  border: none;
   border-radius: 6px;
-  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
 }
 
-.hero-buttons a:first-child button {
+.hero-btn.left {
   background-color: #f292b7;
 }
 
-.hero-buttons a:last-child button {
+.hero-btn.left:hover {
+  background-color: #002e54;
+}
+
+.hero-btn.right {
   background-color: #d6be76;
+}
+
+.hero-btn.right:hover {
+  background-color: #002e54;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-image,
+  .hero-text {
+    max-width: 100%;
+  }
 }
 
 /* Mobiele weergave - schermen kleiner dan 768px */
