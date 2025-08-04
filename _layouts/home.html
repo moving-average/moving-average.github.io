@@ -9,12 +9,6 @@
   <link rel="icon" href="/assets/img/witroze.svg" type="image/svg+xml" />
 </head>
 
-<script>
-  function toggleMenu() {
-    const menu = document.getElementById("main-menu");
-    menu.classList.toggle("show");
-  }
-</script>
 
 <body>
   <header>
@@ -26,13 +20,13 @@
       </div>
       <h1><a href="/" class="site-title">{{ site.title }}</a></h1>
     </div>
-
-    <div class="mobile-menu-toggle" onclick="toggleMenu()">☰</div>
-    <nav id="main-menu" class="nav-menu">
+    <nav>
       <a href="/about">About</a>
       <a href="/founder">Founder</a>
       <div class="dropdown">
-        <button class="dropbtn">Use Cases ▾</button>
+        <button class="dropbtn">
+          Use Cases ▾
+        </button>
         <div class="dropdown-content">
           <a href="/usecase1">Dyscalculia</a>
           <a href="/usecase2">Quality Control</a>
@@ -104,31 +98,36 @@
   </div>
 
   <section class="testimonials-section">
-    <h2 class="testimonials-title">What it is like to work with us</h2>
-    <div class="testimonials-wrapper">
-      <div class="testimonial skew-left">
-        <p>“[Rianne] is highly independent and motivated, formulating and successfully pushing forward the research questions resolved in her thesis. Rianne has as trong intuition in search for relevant problem formulations; she grounds her research approach in the specifics of the application domains.”</p>
-        <div class="testimonial-person">
-          <img src="/assets/img/witgeel.svg" alt="Person 1">
-          <div>
-            <strong>Prof. Mykola Pechenizkiy</strong><br>
-             Promotor, TU/e
+    <div class="testimonials-inner">
+      <div class="testimonials-left">
+        <h2><span class="quote-mark">“</span><br>What it is like to<br><strong>work with us</strong></h2>
+      </div>
+      <div class="testimonials-right">
+        <div class="testimonial-card skew-left">
+          <p>“[Rianne] is highly independent and motivated, formulating and successfully pushing forward the research questions resolved in her thesis. Rianne has a strong intuition in search for relevant problem formulations; she grounds her research approach in the specifics of the application domains.”</p>
+          <div class="testimonial-person">
+            <img src="/assets/img/witgeel.svg" alt="Prof. Mykola Pechenizkiy" />
+            <div>
+              <strong>Prof. Mykola Pechenizkiy</strong><br />
+              Promotor, TU/e
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="testimonial skew-right">
-        <p>“[Rianne] went far beyond research, supervising student groups and master thesis projects of individual students, teaching lectures and later coordinating an entire track within a master-level course, [...]. Rianne obtained quite a bit of funding in NWO and EWUU alliance calls. These would be normal activities for a faculty-level academic career, but when you’re still working on your PhD this is quite a bit ahead of the curve”</p>
-        <div class="testimonial-person">
-          <img src="/assets/img/person2.jpg" alt="Person 2">
-          <div>
-            <strong>Dr. Wouter Duivesteijn</strong><br>
-            Co-promotor. TU/e
+        
+        <div class="testimonial-card skew-right">
+          <p>“[Rianne] went far beyond research, supervising student groups and master thesis projects of individual students, teaching lectures and later coordinating an entire track within a master-level course. Rianne obtained quite a bit of funding in NWO and EWUU alliance calls. These would be normal activities for a faculty-level academic career, but when you're still working on your PhD this is quite a bit ahead of the curve.”</p>
+          <div class="testimonial-person">
+            <img src="/assets/img/person2.jpg" alt="Dr. Wouter Duivesteijn" />
+            <div>
+              <strong>Dr. Wouter Duivesteijn</strong><br />
+              Co-promotor, TU/e
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   </main>
 
   <footer>
