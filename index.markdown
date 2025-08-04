@@ -5,11 +5,6 @@ title: Home
 intro: |
   Enabling teachers by <span style="color: #1d87c2;">developing a digital assessment tool</span> that provides personalized learning analytics. A plugin or add-on that analyzes data of 1 student, explaining **why** exercises are difficult. This saves time, which saves money and increases performance of schools.
 cards:
-  - title: Demonstrator
-    image: /assets/img/witgeel.svg
-    extra_image_center: /assets/img/logo_eindhoven.svg
-    text: 
-    link: /
   - title: Discovering children with dyscalculia
     image: /assets/img/witdonkerblauw.svg
     extra_image_left: /assets/img/logo_ville.png
