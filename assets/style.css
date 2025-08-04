@@ -308,10 +308,16 @@ main.page {
 }
 
 .hero-text ul li {
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: #555;
+  font-weight: 400; /* dunner dan default */
 }
+
 
 .hero-buttons {
   display: flex;
@@ -330,7 +336,7 @@ main.page {
 }
 
 .hero-btn.left {
-  background-color: #f292b7;
+  background-color: #d6be76;
 }
 
 .hero-btn.left:hover {
@@ -338,7 +344,7 @@ main.page {
 }
 
 .hero-btn.right {
-  background-color: #d6be76;
+  background-color: #f292b7;
 }
 
 .hero-btn.right:hover {
