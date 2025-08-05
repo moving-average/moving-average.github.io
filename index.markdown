@@ -2,8 +2,6 @@
 layout: home
 title: Home
 
-# Hero section (markdown content)
----
 
 ## About MovingAverage
 
@@ -16,8 +14,6 @@ title: Home
   <a href="#api" class="hero-btn right">See more</a>
 </div>
 
----
-# Extra data for layout rendering
 
 info_title: Why MovingAverage empowers modern education
 info_blocks:
@@ -53,3 +49,4 @@ cards:
     text: AlgebraKiT uses an AI-powered math engine to evaluate each step of a student’s solution, give instant feedback and hints, and identify specific skill gaps. Its step-by-step data enables personalized insights and adaptive learning within existing platforms.
     link: /usecase2
 
+---
