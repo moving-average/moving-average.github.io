@@ -7,7 +7,8 @@ intro: |
 
   More text
 
+
 permalink: /about
 ---
 
-![Algebrakit2 image](/assets/img/algebrakit2.png)
+<img src="/assets/img/algebrakit2.png" alt="Algebrakit2 image" style="max-width: 70%;"/>
