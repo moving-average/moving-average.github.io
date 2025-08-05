@@ -46,10 +46,7 @@ cards:
 
       - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
 
-logos:
-  - image: /assets/img/logo_eindhoven.svg
-    alt: Eindhoven
-    width: 100px
+
 ---
 
 ## Rianne M. Schouten
