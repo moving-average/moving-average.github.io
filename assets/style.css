@@ -286,7 +286,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
 .testimonials-section {
   background-color: #002e54;
   padding: 4rem 2rem;
@@ -522,22 +521,20 @@ footer a:hover {
   line-height: 1.6;
 }
 
-/* === Slide-in menu styling === */
 .hamburger {
-  font-size: 2rem; /* Grotere knop voor beter zicht */
+  font-size: 2rem; 
   background: none;
   border: none;
   cursor: pointer;
   padding: 1rem;
   z-index: 1001;
-  color: #0074b3; /* Professionele blauwe kleur */
+  color: #0074b3;
 }
 
 .hamburger:focus {
-  outline: none; /* Verwijder focusrand voor een nette uitstraling */
+  outline: none; 
 }
 
-/* Navigatie Menu (mobiel en desktop) */
 nav {
   display: flex;
   flex-direction: column;
@@ -545,18 +542,16 @@ nav {
   background-color: #fff;
   border-top: 2px solid #ddd;
   padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtiele schaduw voor modern effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
   width: 100%;
   position: static;
   border-radius: 4px;
 }
 
-/* Verborgen navigatie (side-menu) */
 nav.hidden {
   display: none;
 }
 
-/* Links in de navigatie */
 nav a {
   display: block;
   width: 100%;
@@ -572,21 +567,20 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #e9ecef; /* Subtiele kleurverandering */
-  border-color: #ccc; /* Subtiele randverandering */
+  background-color: #e9ecef; 
+  border-color: #ccc;
 }
 
 nav a.active {
-  background-color: #007bff; /* Professionele blauwe kleur */
+  background-color: #007bff;
   color: white;
   border-color: #0056b3;
 }
 
 nav a.active:hover {
-  background-color: #0056b3; /* Donkerdere blauwe kleur bij hover */
+  background-color: #0056b3;
 }
 
-/* Side menu (mobiele versie) */
 .side-menu {
   position: fixed;
   top: 0;
@@ -618,14 +612,13 @@ nav a.active:hover {
 }
 
 .side-menu a:hover {
-  background-color: #f5f5f5; /* Subtiele hover achtergrondkleur */
+  background-color: #f5f5f5;
 }
 
 .side-menu.show {
   transform: translateX(0);
 }
 
-/* Sluitknop van het side-menu */
 .close-btn {
   background: none;
   border: none;
@@ -633,10 +626,9 @@ nav a.active:hover {
   margin-left: auto;
   margin-bottom: 1rem;
   cursor: pointer;
-  color: #0074b3; /* Professionele blauwe kleur */
+  color: #0074b3; 
 }
 
-/* Overlay voor side-menu */
 .overlay {
   position: fixed;
   top: 0;
@@ -654,6 +646,7 @@ nav a.active:hover {
 }
 
 @media (max-width: 768px) {
+
   .testimonials-wrapper {
     flex-direction: column;
     align-items: center;
@@ -763,85 +756,77 @@ nav a.active:hover {
   }
 
    .side-menu {
-    width: 250px; /* Iets smaller voor mobiel */
+    width: 250px;
     padding: 2rem 1rem;
   }
 
   .hamburger {
-    color: #002e54; /* Blauwe kleur voor de hamburger knop */
+    color: #002e54;
   }
 
   nav a {
-    border-radius: 4px; /* Kleinere afgeronde hoeken voor mobiel */
-    padding: 1rem 1.5rem; /* Iets meer ruimte rondom de tekst */
+    border-radius: 4px; 
+    padding: 1rem 1.5rem;
   }
 
-  /* Verhoog de zichtbaarheid van de overlay op mobiel */
   .overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Donkerder overlay voor mobiel */
+    background-color: rgba(0, 0, 0, 0.5);
   }
-}
 
-  /* Media query voor mobiel en kleinere schermen (max-width: 768px) */
-@media (max-width: 768px) {
   .double-info-section {
-    padding: 1rem 2rem; /* Kleinere padding voor mobiel */
-    gap: 2rem; /* Kleinere gap tussen de secties */
-    margin: 0 auto; /* Gelijke marges aan beide zijden */
+    padding: 1rem 2rem;
+    gap: 2rem;
+    margin: 0 auto; 
   }
 
   .info-row {
-    flex-direction: column; /* Zet de elementen onder elkaar */
-    align-items: center; /* Centrer de inhoud voor een nette uitlijning */
-    width: 100%; /* Zorg ervoor dat de rij de volledige breedte neemt */
-    order: 0; /* Zorg ervoor dat de volgorde op mobiel normaal is */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    order: 0;
   }
 
-  /* Zorg ervoor dat de volgorde correct is voor de tweede rij */
   .info-row.reverse {
-    flex-direction: column; /* Geen row-reverse op mobiel */
-    order: 1; /* Verander de volgorde van de tweede rij */
+    flex-direction: column;
+    order: 1;
   }
 
   .info-text,
   .info-image {
-    width: 100%; /* Maak ze 100% breed */
-    text-align: left; /* Zet de tekst links uitgelijnd */
+    width: 100%; 
+    text-align: left;
   }
 
   .info-text h3 {
-    font-size: 1.25rem; /* Kleinere koppen voor mobiel */
-    margin-left: 0; /* Geen marge aan de linkerzijde op mobiel */
+    font-size: 1.25rem;
+    margin-left: 0;
   }
 
   .info-text p {
-    font-size: 1rem; /* Kleinere tekst voor mobiel */
-    margin-left: 0; /* Geen marge aan de linkerzijde op mobiel */
+    font-size: 1rem;
+    margin-left: 0;
   }
 
   .info-image img {
-    max-width: 100%; /* Zorg ervoor dat de afbeeldingen niet groter worden dan hun container */
-    height: auto; /* Houd de aspect ratio intact */
-    margin-bottom: 1rem; /* Voegt wat ruimte toe onder de afbeeldingen */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
   }
 
-  /* De eerste rij krijgt als volgorde 0, zodat de eerste rij begint met tekst gevolgd door afbeelding */
   .info-row:nth-of-type(1) .info-text {
-    order: 0; /* Zorg ervoor dat de tekst eerst komt */
+    order: 0;
   }
   
   .info-row:nth-of-type(1) .info-image {
-    order: 1; /* Daarna komt de afbeelding */
+    order: 1;
   }
 
-  /* De tweede rij krijgt volgorde 2, zodat de tweede rij start met tekst en daarna afbeelding */
   .info-row:nth-of-type(2) .info-text {
-    order: 0; /* Zorg ervoor dat de tekst eerst komt */
+    order: 0;
   }
 
   .info-row:nth-of-type(2) .info-image {
-    order: 1; /* Daarna komt de afbeelding */
+    order: 1;
   }
 }
 
-}
