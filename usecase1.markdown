@@ -18,13 +18,13 @@ intro: |
     <p>This research explores how to detect early signs of dyscalculia through smart data analysis.</p>
   </div>
   <div class="hero-banner-img">
-    <img src="/assets/img/algebrakit1.png" alt="Children's math interface" />
+    <img src="/assets/img/algebrakit3.png" alt="Children's math interface" />
   </div>
 </div>
 
 <section class="section-alt">
   <div class="image-text-block alt">
-    <img src="/assets/img/algebrakit3.png" class="responsive-inline-img" alt="Timed task" />
+    <img src="/assets/img/algebrakit1.png" class="responsive-inline-img" alt="Timed task" />
     <div>
       <h3>Timed math tasks</h3>
       <p>Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.</p>
