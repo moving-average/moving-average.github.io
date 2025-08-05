@@ -437,7 +437,7 @@ footer a:hover {
 
 .double-info-section {
   display: flex;
-  background-color: #f9fafb;
+  background-color: #f292b7;
   border: 1px solid #ddd;
   border-radius: 12px;
   flex-direction: column;
@@ -749,53 +749,46 @@ footer a:hover {
     gap: 1rem;
   }
 
-/* Media query voor schermen kleiner dan 768px */
+/* Media query voor mobiel en kleinere schermen (max-width: 768px) */
 @media (max-width: 768px) {
   .double-info-section {
-    padding: 0 20px; /* Verminder padding aan de zijkanten voor mobiel */
+    padding: 1rem 2rem; /* Kleinere padding voor mobiel */
     gap: 2rem; /* Kleinere gap tussen de secties */
-    margin: 0 auto; /* Zorgt voor gelijke marges aan beide zijden */
+    margin: 0 auto; /* Gelijke marges aan beide zijden */
   }
 
   .info-row {
-    flex-direction: column; /* Zorgt ervoor dat de items onder elkaar staan op mobiel */
-    align-items: stretch; /* Zorgt ervoor dat de items de volledige breedte nemen */
+    flex-direction: column; /* Zet de elementen onder elkaar */
+    align-items: center; /* Centrer de inhoud voor een nette uitlijning */
     width: 100%; /* Zorg ervoor dat de rij de volledige breedte neemt */
   }
 
   .info-row.reverse {
-    flex-direction: column-reverse; /* Plaatjes onderaan houden in de reverse rij */
+    flex-direction: column-reverse; /* Zet de afbeeldingen onderaan */
   }
 
   .info-text,
   .info-image {
-    width: 100%; /* Laat beide secties de volledige breedte gebruiken */
-    text-align: left; /* Zet de tekst terug naar links uitgelijnd */
+    width: 100%; /* Maak ze 100% breed */
+    text-align: left; /* Zet de tekst links uitgelijnd */
   }
 
   .info-text h3 {
-    font-size: 1.15rem; /* Verklein de koppen voor een betere weergave op mobiel */
-    margin-bottom: 1rem; /* Voegt wat ruimte toe onder de kopjes */
+    font-size: 1.25rem; /* Kleinere koppen voor mobiel */
+    margin-left: 0; /* Geen marge aan de linkerzijde op mobiel */
   }
 
   .info-text p {
-    font-size: 0.95rem; /* Verklein de tekst voor mobiel */
-    line-height: 1.5; /* Iets kleinere regelafstand voor mobiel */
+    font-size: 1rem; /* Kleinere tekst voor mobiel */
+    margin-left: 0; /* Geen marge aan de linkerzijde op mobiel */
   }
 
   .info-image img {
-    max-width: 100%; /* Zorg ervoor dat de afbeelding niet groter wordt dan de container */
+    max-width: 100%; /* Zorg ervoor dat de afbeeldingen niet groter worden dan hun container */
     height: auto; /* Houd de aspect ratio intact */
-  }
-
-  /* Het tweede plaatje onderaan de sectie */
-  .info-row.reverse .info-image {
-    order: 2; /* Plaatje komt onderaan door de volgorde van flexbox aan te passen */
-  }
-
-  .info-row.reverse .info-text {
-    order: 1; /* Zorg ervoor dat de tekst bovenaan blijft */
+    margin-bottom: 1rem; /* Voegt wat ruimte toe onder de afbeeldingen */
   }
 }
+
 
 }
