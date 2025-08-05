@@ -2,19 +2,6 @@
 layout: home
 title: Home
 
-
-## About MovingAverage
-
-- 🔷 Personalized learning insights: understand why specific exercises are challenging for each student  
-- 🔷 Time-saving for teachers: automated analysis reduces preparation and grading time  
-- 🔷 Improved student performance: targeted feedback supports faster learning progress  
-
-<div class="hero-buttons">
-  <a href="#demo" class="hero-btn left">View demo</a>
-  <a href="#api" class="hero-btn right">See more</a>
-</div>
-
-
 info_title: Why MovingAverage empowers modern education
 info_blocks:
   - title: Deep error analysis
@@ -50,3 +37,14 @@ cards:
     link: /usecase2
 
 ---
+
+## About MovingAverage
+
+- 🔷 Personalized learning insights: understand why specific exercises are challenging for each student  
+- 🔷 Time-saving for teachers: automated analysis reduces preparation and grading time  
+- 🔷 Improved student performance: targeted feedback supports faster learning progress  
+
+<div class="hero-buttons">
+  <a href="#demo" class="hero-btn left">View demo</a>
+  <a href="#api" class="hero-btn right">See more</a>
+</div>
