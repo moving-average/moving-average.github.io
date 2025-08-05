@@ -57,8 +57,8 @@ Rianne M. Schouten, Wouter Duivesteijn, Pekka Räsänen, Jacob M. Paul, Mykola P
 [Read full paper →](https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf)
 
 **Partners:**  
-  - Prof. Pekka Räsänen  
-  - Prof. Mikko-Jussi Laakso
+- 🔷 Prof. Pekka Räsänen  
+- 🔷 Prof. Mikko-Jussi Laakso  
 
 <div class="hero-buttons">
   <a href="https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf" class="hero-btn left">View paper</a>
