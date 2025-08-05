@@ -254,7 +254,7 @@ footer a:hover {
 }
 
 .hero-text h2 {
-  font-size: 2.2rem; /* Groter font voor titels */
+  font-size: 2.2rem; 
   margin-bottom: 1rem;
   font-weight: 600;
   color: #333;
@@ -271,21 +271,21 @@ footer a:hover {
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  font-size: 1rem; /* Iets grotere tekst voor de links */
+  font-size: 1rem; 
   line-height: 1.6;
   color: #555;
   font-weight: 400;
 }
 
 .hero-text ul li a {
-  color: #0073e6; /* Blauwe kleur voor links */
+  color: #0073e6;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .hero-text ul li a:hover {
-  color: #005bb5; /* Hover effect: donkerder blauw */
+  color: #005bb5; 
   text-decoration: underline;
 }
 
@@ -303,7 +303,7 @@ footer a:hover {
   color: white;
   text-decoration: none;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw toegevoegd */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .hero-btn.left {
@@ -312,7 +312,7 @@ footer a:hover {
 
 .hero-btn.left:hover {
   background-color: #002e54;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover schaduw */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
 .hero-btn.right {
@@ -321,7 +321,7 @@ footer a:hover {
 
 .hero-btn.right:hover {
   background-color: #002e54;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover schaduw */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero-text ul li a.contact:hover {
