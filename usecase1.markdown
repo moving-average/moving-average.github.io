@@ -4,10 +4,11 @@ title: Usecase1
 
 hero_image: /assets/img/logo_ville.png
 hero_alt: Logo image
+hero_image_width: 100%
 info_title: Discovering patterns in children's math learning
 info_blocks:
   - title: This research explores how to detect early signs of dyscalculia through smart data analysis
-    text: 
+    text: test
 
 testimonials_title: What it is like to work with us
 testimonials:
@@ -29,14 +30,7 @@ cards:
   - title: Dot enumeration
     image: /assets/img/witblauw.svg
     extra_image_center: /assets/img/logo_algebrakit.png
-    text: |
-    Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
-
-    <div class="highlight-box">
-        <strong>Key Insight:</strong>  
-        Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
-      </div>
-
+    text: Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
     link: /usecase2
 
 ---
