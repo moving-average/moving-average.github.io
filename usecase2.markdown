@@ -28,7 +28,6 @@ testimonials:
 
 logos:
   - iframe: https://algebrakit.com/
-    width: 900px;
 ---
 
 ## Quality control of math exercises
