@@ -324,15 +324,6 @@ footer a:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover schaduw */
 }
 
-/* Toevoegen van iconen naast links */
-.hero-text ul li a::before {
-  content: url('linkedin-icon.svg'); /* Voeg het juiste icoon bestand toe */
-  margin-right: 8px;
-  width: 18px;
-  height: 18px;
-}
-
-/* Optioneel: Voeg hover-effecten toe aan de contactinformatie */
 .hero-text ul li a.contact:hover {
   color: #e74c3c;
   text-decoration: underline;
@@ -498,7 +489,7 @@ footer a:hover {
 
 .info-section {
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 4rem auto;
   padding: 0 2rem;
   position: relative;
 }
@@ -754,7 +745,8 @@ footer a:hover {
   }
 
   .double-info-section {
-    padding: 2rem 1.25rem;
+    padding: 0px 80px;
+    margin: 0px 0px;
     gap: 3rem;
   }
 
