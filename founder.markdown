@@ -1,9 +1,17 @@
 ---
 layout: home
-title: Home
+title: Founder
 
 hero_image: /assets/img/foto_rianne.jpg
 hero_alt: Founder image
+info_title: Why MovingAverage empowers modern education
+info_blocks:
+  - title: Deep error analysis
+    text: Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.
+  - title: Actionable insights per student
+    text: Each student receives tailored feedback that highlights recurring misconceptions, helping them focus on what truly needs attention.
+  - title: Support for effective teaching
+    text: Teachers gain a deeper understanding of each learner's challenges, making it easier to offer targeted support and reduce time spent diagnosing errors manually.
 
 testimonials_title: What it is like to work with us
 testimonials:
