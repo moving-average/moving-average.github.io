@@ -578,28 +578,52 @@ main.page {
 }
 
 
+/* Sectiecontainer */
 .logos-section {
   padding: 2rem 1rem;
 }
 
-.website-full-width iframe {
-  width: 100%;
-  max-width: 1000px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
-}
-
+/* Standaard wrapper met flex-grid voor max 3 logo's */
 .logos-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  flex-wrap: wrap;
 }
 
+/* Standaard logo-blok */
 .logo-item {
+  flex: 1 1 200px;
+  max-width: 300px;
   text-align: center;
 }
+
+/* Als het enige item een iframe is: geef het volledige breedte */
+.single-iframe {
+  display: block;
+  text-align: center;
+}
+
+.single-iframe .logo-item {
+  max-width: none;
+  width: 100%;
+}
+
+.single-iframe iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Optionele styling voor iframe previews in multi-logo layout */
+.website-preview iframe {
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
 
 
 .double-info-section {

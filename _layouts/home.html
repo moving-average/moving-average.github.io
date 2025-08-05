@@ -88,17 +88,9 @@
     </div>
     {% endif %}
 
-  {% if page.logos %}
-  {% assign first_logo = page.logos[0] %}
-  {% assign is_only_iframe = page.logos | size == 1 and first_logo.iframe %}
-  
-  <section class="logos-section">
-    {% if is_only_iframe %}
-      <div class="website-full-width">
-        <iframe src="{{ first_logo.iframe }}" width="100%" height="500" style="border:1px solid #ccc;"></iframe>
-      </div>
-    {% else %}
-      <div class="logos-wrapper">
+    {% if page.logos %}
+    <section class="logos-section">
+      <div class="logos-wrapper {% if page.logos.size == 1 and page.logos[0].iframe %}single-iframe{% endif %}">
         {% for logo in page.logos limit:3 %}
         <div class="logo-item">
           {% if logo.iframe %}
@@ -112,10 +104,8 @@
         </div>
         {% endfor %}
       </div>
+    </section>
     {% endif %}
-  </section>
-  {% endif %}
-
 
     {% if page.info_blocks_reversed %}
     <section class="double-info-section">
