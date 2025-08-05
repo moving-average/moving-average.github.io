@@ -42,14 +42,13 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  position: absolute;
-  top: 60px; /* of pas aan afhankelijk van je header hoogte */
-  right: 2rem;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border-top: 1px solid #ccc;
   padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  position: static; /* Belangrijk! Geen absolute positie op mobiel */
+  border-radius: 0;
 }
 
 nav.hidden {
@@ -57,14 +56,16 @@ nav.hidden {
 }
 
 nav a {
-  padding: 0.6rem 1rem;
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
   text-decoration: none;
   font-weight: 500;
   color: #333;
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   border-radius: 6px;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 nav a:hover {
