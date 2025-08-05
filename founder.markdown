@@ -45,8 +45,6 @@ cards:
       - Prof. Panos Markopoulos (Industrial Design TU/e) 
 
       - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
-
-
 ---
 
 ## Rianne M. Schouten

@@ -66,7 +66,9 @@
         {% if card.image_width %}style="width: {{ card.image_width }};"{% endif %} />
         <h3>{{ card.title }}</h3>
         <p>{{ card.text | markdownify }}</p>
+        {% if card.link %}
         <a href="{{ card.link }}"><button>See more</button></a>
+        {% endif %}
         {% if card.extra_image_left or card.extra_image_center or card.extra_image_right %}
         <div class="extra-images">
           {% if card.extra_image_left %}

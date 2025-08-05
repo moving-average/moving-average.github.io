@@ -599,7 +599,6 @@ footer a:hover {
   color: #0074b3;
 }
 
-/* === Background overlay === */
 .overlay {
   position: fixed;
   top: 0;
@@ -615,7 +614,6 @@ footer a:hover {
 .overlay.hidden {
   display: none;
 }
-
 
 @media (max-width: 768px) {
   .testimonials-wrapper {
@@ -739,7 +737,7 @@ footer a:hover {
   }
 
   .info-row.reverse {
-    flex-direction: column; /* override row-reverse on mobile */
+    flex-direction: column; 
   }
 
   .info-text,
