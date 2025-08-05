@@ -19,7 +19,7 @@ testimonials:
     skew: skew-right
 
 cards:
-  - title: About Rianne
+  - title: About Rianne Schouten
     image: /assets/img/wit.svg
     extra_image_center: /assets/img/logo_eindhoven.svg
     extra_image_center_width: 100%
