@@ -4,14 +4,17 @@ title: Founder
 
 hero_image: /assets/img/foto_rianne.jpg
 hero_alt: Founder image
-info_title: Why MovingAverage empowers modern education
+hero_image_width: 75%
+info_title: About the Founder
 info_blocks:
-  - title: Deep error analysis
-    text: Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.
-  - title: Actionable insights per student
-    text: Each student receives tailored feedback that highlights recurring misconceptions, helping them focus on what truly needs attention.
-  - title: Support for effective teaching
-    text: Teachers gain a deeper understanding of each learner's challenges, making it easier to offer targeted support and reduce time spent diagnosing errors manually.
+  - title: |
+      - BSc in Medicine (UU)
+      - MSc in Methodology and Statistics (UU)
+      - PhD in Data Mining (TU/e)Deep error analysis
+    text: |
+      Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
+      
+      Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervision of 2 PhD candidates, and job searching (academia).Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.
 
 testimonials_title: What it is like to work with us
 testimonials:
@@ -25,41 +28,34 @@ testimonials:
     skew: skew-right
 
 cards:
-  - title: About the Founder
-    image: /assets/img/witdonkerblauw.svg
-    extra_image_center: /assets/img/logo_eindhoven.png
-    text: |
-      - BSc in Medicine (UU)
-      - MSc in Methodology and Statistics (UU)
-      - PhD in Data Mining (TU/e)
-      
-      Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
-      
-      Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervision of 2 PhD candidates, and job searching (academia).
-    link: /usecase1
   - title: Team members MovingAverage
     image: /assets/img/logo.svg
-    extra_image_center: /assets/img/logo_algebrakit.png
+    extra_image_center: /assets/img/logo_eindhoven.png
     text: |
       - Rianne Schouten (lead) 
+
       - Moos Schouten (student assistant) 
+
       - Lieke van den Biggelaar (PhD candidate) 
+
       - Martijn Slob (CEO AlgebraKit) 
+
       - Prof. Panos Markopoulos (Industrial Design TU/e) 
+
       - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
     link: /usecase2
 
 ---
 
-## Learnnn more about the founder of this product
+## Learn more about the founder of this product
 
 - **Website:** [https://rianneschouten.github.io/](https://rianneschouten.github.io/)
 - **LinkedIn:** [linkedin.com/in/rianneschouten](https://linkedin.com/in/rianneschouten)
 - **PhD thesis:** 
-- **Resume:** [Find here my resume!](https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)
-- **E-mail:** [r.m.schouten@tue.nl](mailto:r.m.schouten@tue.nl)Personalized learning insights: understand why specific exercises are challenging for each student  
+- **Resume:** [Find my resume here!](https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)
+- **E-mail:** [r.m.schouten@tue.nl](mailto:r.m.schouten@tue.nl)
 
 <div class="hero-buttons">
-  <a href="#demo" class="hero-btn left">View demo</a>
-  <a href="#api" class="hero-btn right">See more</a>
+  <a href="#(https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)" class="hero-btn left">View resume</a>
+  <a href="#(mailto:r.m.schouten@tue.nl)" class="hero-btn right">Contact</a>
 </div>

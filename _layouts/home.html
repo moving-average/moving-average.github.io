@@ -36,7 +36,8 @@
     <div class="hero-section">
       {% if page.hero_image %}
       <div class="hero-image">
-        <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: 'Hero image' }}" />
+        <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: 'Hero image' }}"
+        {% if page.hero_image_width %}style="width: {{ page.hero_image_width }};"{% endif %} />
       </div>
       {% endif %}
       <div class="hero-text">
@@ -44,6 +45,7 @@
       </div>
     </div>
 
+    {% if page.info_title %}
     <section class="info-section">
       <h2 class="info-title">{{ page.info_title }}</h2>
       <div class="info-columns">
@@ -55,7 +57,9 @@
         {% endfor %}
       </div>
     </section>
+    {% endif %}
 
+    {% if page.cards %}
     <div class="cards">
       {% for card in page.cards %}
       <div class="card">
@@ -79,6 +83,7 @@
       </div>
       {% endfor %}
     </div>
+    {% endif %}
 
     <section class="testimonials-section">
       <h2 class="testimonials-title">{{ page.testimonials_title }}</h2>
