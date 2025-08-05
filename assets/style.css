@@ -437,7 +437,7 @@ footer a:hover {
 
 .double-info-section {
   display: flex;
-  background-color: #f292b7;
+  background-color: #1d87c2;
   border: 1px solid #ddd;
   border-radius: 12px;
   flex-direction: column;
@@ -749,7 +749,7 @@ footer a:hover {
     gap: 1rem;
   }
 
-/* Media query voor mobiel en kleinere schermen (max-width: 768px) */
+  /* Media query voor mobiel en kleinere schermen (max-width: 768px) */
 @media (max-width: 768px) {
   .double-info-section {
     padding: 1rem 2rem; /* Kleinere padding voor mobiel */
@@ -761,10 +761,13 @@ footer a:hover {
     flex-direction: column; /* Zet de elementen onder elkaar */
     align-items: center; /* Centrer de inhoud voor een nette uitlijning */
     width: 100%; /* Zorg ervoor dat de rij de volledige breedte neemt */
+    order: 0; /* Zorg ervoor dat de volgorde op mobiel normaal is */
   }
 
+  /* Zorg ervoor dat de volgorde correct is voor de tweede rij */
   .info-row.reverse {
-    flex-direction: column-reverse; /* Zet de afbeeldingen onderaan */
+    flex-direction: column; /* Geen row-reverse op mobiel */
+    order: 1; /* Verander de volgorde van de tweede rij */
   }
 
   .info-text,
@@ -788,7 +791,24 @@ footer a:hover {
     height: auto; /* Houd de aspect ratio intact */
     margin-bottom: 1rem; /* Voegt wat ruimte toe onder de afbeeldingen */
   }
-}
 
+  /* De eerste rij krijgt als volgorde 0, zodat de eerste rij begint met tekst gevolgd door afbeelding */
+  .info-row:nth-of-type(1) .info-text {
+    order: 0; /* Zorg ervoor dat de tekst eerst komt */
+  }
+  
+  .info-row:nth-of-type(1) .info-image {
+    order: 1; /* Daarna komt de afbeelding */
+  }
+
+  /* De tweede rij krijgt volgorde 2, zodat de tweede rij start met tekst en daarna afbeelding */
+  .info-row:nth-of-type(2) .info-text {
+    order: 0; /* Zorg ervoor dat de tekst eerst komt */
+  }
+
+  .info-row:nth-of-type(2) .info-image {
+    order: 1; /* Daarna komt de afbeelding */
+  }
+}
 
 }
