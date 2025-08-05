@@ -368,9 +368,9 @@ main.page {
 }
 
 .testimonials-section {
-  background-color: #f292b7;
+  background-color: #d6be76;
   padding: 4rem 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: white;
   text-align: left;
 }
@@ -436,6 +436,74 @@ main.page {
   font-size: 0.95rem;
   color: #555;
 }
+
+.page-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.page-hero-img {
+  max-width: 250px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.page-hero-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.page-hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.page-intro {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem auto 1.5rem;
+  text-align: center;
+  max-width: 800px;
+}
+
+.page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem 1rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #222;
+  box-sizing: border-box;
+}
+
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.page-content iframe {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
