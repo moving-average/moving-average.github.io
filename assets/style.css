@@ -380,6 +380,7 @@ main.page {
   margin-bottom: 3rem;
   font-weight: 600;
   color: white;
+  text-align: center;
 }
 
 .testimonials-wrapper {
