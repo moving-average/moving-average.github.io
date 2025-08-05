@@ -9,7 +9,6 @@
   <link rel="icon" href="/assets/img/witroze.svg" type="image/svg+xml" />
 </head>
 
-
 <body>
   <header>
     <div class="logo-title">
@@ -24,9 +23,7 @@
       <a href="/about">About</a>
       <a href="/founder">Founder</a>
       <div class="dropdown">
-        <button class="dropbtn">
-          Use Cases ▾
-        </button>
+        <button class="dropbtn">Use Cases ▾</button>
         <div class="dropdown-content">
           <a href="/usecase1">Dyscalculia</a>
           <a href="/usecase2">Quality Control</a>
@@ -36,92 +33,67 @@
   </header>
 
   <main>
-    
     <div class="hero-section">
       <div class="hero-image">
         <img src="/assets/img/logo.svg" alt="Logo image" />
       </div>
       <div class="hero-text">
-        <h2>About MovingAverage</h2>
-        <ul>
-          <li>🔷 Personalized learning insights: understand why specific exercises are challenging for each student</li>
-          <li>🔷 Time-saving for teachers: automated analysis reduces preparation and grading time</li>
-          <li>🔷 Improved student performance: targeted feedback supports faster learning progress</li>
-        </ul>
-        <div class="hero-buttons">
-          <a href="#demo" class="hero-btn left">View demo</a>
-          <a href="#api" class="hero-btn right">See more</a>
-        </div>
+        {{ content }}
       </div>
     </div>
 
     <section class="info-section">
-    <h2 class="info-title">Why MovingAverage empowers modern education</h2>
-    <div class="info-columns">
-      <div class="info-block">
-        <h3>Deep error analysis</h3>
-        <p>Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.</p>
+      <h2 class="info-title">{{ page.info_title }}</h2>
+      <div class="info-columns">
+        {% for block in page.info_blocks %}
+        <div class="info-block">
+          <h3>{{ block.title }}</h3>
+          <p>{{ block.text }}</p>
+        </div>
+        {% endfor %}
       </div>
-      <div class="info-block">
-        <h3>Actionable insights per student</h3>
-        <p>Each student receives tailored feedback that highlights recurring misconceptions, helping them focus on what truly needs attention.</p>
-      </div>
-      <div class="info-block">
-        <h3>Support for effective teaching</h3>
-        <p>Teachers gain a deeper understanding of each learner's challenges, making it easier to offer targeted support and reduce time spent diagnosing errors manually.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
     <div class="cards">
       {% for card in page.cards %}
-    <div class="card">
-      <img src="{{ card.image }}" alt="{{ card.title }}">
-      <h3>{{ card.title }}</h3>
-      <p>{{ card.text | markdownify}}</p>
-      <a href="{{ card.link }}"><button>See more</button></a>
-      {% if card.extra_image_left or card.extra_image_center or card.extra_image_right %}
-      <div class="extra-images">
-        {% if card.extra_image_left %}
-        <img src="{{ card.extra_image_left }}" alt="Extra afbeelding voor {{ card.title }}">
-        {% endif %}
-        {% if card.extra_image_center %}
-        <img src="{{ card.extra_image_center }}" alt="Rechter afbeelding voor {{ card.title }}">
-        {% endif %}
-        {% if card.extra_image_right %}
-        <img src="{{ card.extra_image_right }}" alt="Rechter afbeelding voor {{ card.title }}">
-        {% endif %}
-      </div>
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-
-  <section class="testimonials-section">
-  <h2 class="testimonials-title">What it is like to work with us</h2>
-  <div class="testimonials-wrapper">
-    <div class="testimonial-card skew-left">
-      <p>“[Rianne] is highly independent and motivated, formulating and successfully pushing forward the research questions resolved in her thesis. Rianne has a strong intuition in search for relevant problem formulations; she grounds her research approach in the specifics of the application domains.”</p>
-      <div class="testimonial-person">
-        <div>
-          <strong>Prof. Mykola Pechenizkiy</strong><br />
-          Promotor, TU/e
+      <div class="card">
+        <img src="{{ card.image }}" alt="{{ card.title }}">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.text | markdownify }}</p>
+        <a href="{{ card.link }}"><button>See more</button></a>
+        {% if card.extra_image_left or card.extra_image_center or card.extra_image_right %}
+        <div class="extra-images">
+          {% if card.extra_image_left %}
+          <img src="{{ card.extra_image_left }}" alt="Extra afbeelding voor {{ card.title }}">
+          {% endif %}
+          {% if card.extra_image_center %}
+          <img src="{{ card.extra_image_center }}" alt="Rechter afbeelding voor {{ card.title }}">
+          {% endif %}
+          {% if card.extra_image_right %}
+          <img src="{{ card.extra_image_right }}" alt="Rechter afbeelding voor {{ card.title }}">
+          {% endif %}
         </div>
+        {% endif %}
       </div>
+      {% endfor %}
     </div>
 
-    <div class="testimonial-card skew-right">
-      <p>“[Rianne] went far beyond research, supervising student groups and master thesis projects of individual students, teaching lectures and later coordinating an entire track within a master-level course. Rianne obtained quite a bit of funding in NWO and EWUU alliance calls. These would be normal activities for a faculty-level academic career, but when you're still working on your PhD this is quite a bit ahead of the curve.”</p>
-      <div class="testimonial-person">
-        <div>
-          <strong>Dr. Wouter Duivesteijn</strong><br />
-          Co-promotor, TU/e
+    <section class="testimonials-section">
+      <h2 class="testimonials-title">{{ page.testimonials_title }}</h2>
+      <div class="testimonials-wrapper">
+        {% for testimonial in page.testimonials %}
+        <div class="testimonial-card {{ testimonial.skew }}">
+          <p>{{ testimonial.quote }}</p>
+          <div class="testimonial-person">
+            <div>
+              <strong>{{ testimonial.name }}</strong><br />
+              {{ testimonial.role }}
+            </div>
+          </div>
         </div>
+        {% endfor %}
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
   </main>
 
   <footer>
@@ -129,5 +101,6 @@
   </footer>
 </body>
 </html>
+
 
 
