@@ -603,6 +603,50 @@ main.page {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
+.double-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem 1rem;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.info-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.info-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-text p {
+  margin-bottom: 1rem;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
