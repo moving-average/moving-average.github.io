@@ -48,11 +48,6 @@ cards:
 
       Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervision of 2 PhD candidates, and job searching (academia).Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.
     link: /usecase1
-  - title: Quality control of math exercises
-    image: /assets/img/witblauw.svg
-    extra_image_center: /assets/img/logo_algebrakit.png
-    text: AlgebraKiT uses an AI-powered math engine to evaluate each step of a student’s solution, give instant feedback and hints, and identify specific skill gaps. Its step-by-step data enables personalized insights and adaptive learning within existing platforms.
-    link: /"https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf"
   - title: Team members MovingAverage
     image: /assets/img/logo.svg
     extra_image_center: /assets/img/logo_eindhoven.png

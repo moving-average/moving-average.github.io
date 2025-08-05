@@ -52,7 +52,7 @@
         {% for block in page.info_blocks %}
         <div class="info-block">
           <h3>{{ block.title }}</h3>
-          <p>{{ block.text }}</p>
+          <p>{{ block.text | markdownify}}</p>
         </div>
         {% endfor %}
       </div>
