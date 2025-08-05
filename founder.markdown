@@ -9,16 +9,22 @@ info_title: Learn more about the founder of this product
 info_blocks:
   - title: Education
     text: |
-      - BSc in Medicine (UU)
+      - BSc in Medicine (UU) 
+
       - MSc in Methodology and Statistics (UU)
+
       - PhD in Data Mining (TU/e)Deep error analysis
   - title: Experience
     text: |
       - 2025-now Postdoctoral researcher @Eindhoven University of Technology, the Netherlands
+
       - 2020-2025 PhDcandidate @Eindhoven University of Technology,the Netherlands
-      - 2017-2019 Researcher Missing Data & Statistical Consultant @ Utrecht University, the Netherlands
-      - 2018-2020 Developer Data & Analytics @SVMN;Stakeholder communication & Small team lead
-      - 2017 Data Scientist @ DPA Professionals; Consultancy & Traineeship
+
+      - 2017-2019 Researcher Missing Data & Statistical Consultant @ Utrecht University, the Netherlands 
+
+      - 2018-2020 Developer Data & Analytics @SVMN;Stakeholder communication & Small team lead 
+
+      - 2017 Data Scientist @ DPA Professionals; Consultancy & Traineeship 
 
 testimonials_title: What it is like to work with us
 testimonials:
@@ -34,11 +40,19 @@ testimonials:
 cards:
   - title: About Rianne
     image: /assets/img/wit.svg
+    extra_image_left: /assets/img/logo_ville.png
+    extra_image_center: /assets/img/logo_eduten.png
+    extra_image_right: /assets/img/logo_turku.svg
     text: |
       Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
-      
+
       Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervision of 2 PhD candidates, and job searching (academia).Rather than just reporting which answers are wrong, our system uncovers patterns in student mistakes and explains why those errors occur.
-    link: /usecase2
+    link: /usecase1
+  - title: Quality control of math exercises
+    image: /assets/img/witblauw.svg
+    extra_image_center: /assets/img/logo_algebrakit.png
+    text: AlgebraKiT uses an AI-powered math engine to evaluate each step of a student’s solution, give instant feedback and hints, and identify specific skill gaps. Its step-by-step data enables personalized insights and adaptive learning within existing platforms.
+    link: /"https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf"
   - title: Team members MovingAverage
     image: /assets/img/logo.svg
     extra_image_center: /assets/img/logo_eindhoven.png
@@ -54,7 +68,6 @@ cards:
       - Prof. Panos Markopoulos (Industrial Design TU/e) 
 
       - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
-    link: /usecase2
 
 ---
 
