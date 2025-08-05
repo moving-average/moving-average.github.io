@@ -729,6 +729,7 @@ footer a:hover {
   .double-info-section {
     padding: 2rem 1.25rem;
     gap: 3rem;
+    margin: none;
   }
 
   .info-row {
