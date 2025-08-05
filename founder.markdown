@@ -29,9 +29,9 @@ cards:
     image: /assets/img/witdonkerblauw.svg
     extra_image_center: /assets/img/logo_eindhoven.png
     text: |
-    - BSc in Medicine (UU)
-    - MSc in Methodology and Statistics (UU)
-    - PhD in Data Mining (TU/e)
+      - BSc in Medicine (UU)
+      - MSc in Methodology and Statistics (UU)
+      - PhD in Data Mining (TU/e)
       
       Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
       
@@ -40,18 +40,18 @@ cards:
   - title: Team members MovingAverage
     image: /assets/img/logo.svg
     extra_image_center: /assets/img/logo_algebrakit.png
-    text: ||
-    - Rianne Schouten (lead) 
-    - Moos Schouten (student assistant) 
-    - Lieke van den Biggelaar (PhD candidate) 
-    - Martijn Slob (CEO AlgebraKit) 
-    - Prof. Panos Markopoulos (Industrial Design TU/e) 
-    - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
+    text: |
+      - Rianne Schouten (lead) 
+      - Moos Schouten (student assistant) 
+      - Lieke van den Biggelaar (PhD candidate) 
+      - Martijn Slob (CEO AlgebraKit) 
+      - Prof. Panos Markopoulos (Industrial Design TU/e) 
+      - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
     link: /usecase2
 
 ---
 
-## Learn more about the founder of this product
+## Learnnn more about the founder of this product
 
 - **Website:** [https://rianneschouten.github.io/](https://rianneschouten.github.io/)
 - **LinkedIn:** [linkedin.com/in/rianneschouten](https://linkedin.com/in/rianneschouten)
