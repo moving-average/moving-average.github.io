@@ -29,16 +29,12 @@ testimonials:
 info_blocks_reversed:
   - title: Timed math tasks
     text: Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.
-    button_text: "Developer docs"
-    button_link: "https://algebrakit.com/docs"
     image: /assets/img/algebrakit.png
     alt: algebrakit image
     image_width: 300px
 
   - title: "Dot enumeration"
     text: Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
-    button_text: "Authoring tutorial"
-    button_link: "https://algebrakit.com/authoring"
     image: /assets/img/algebrakit4.png
     alt: Content creation visual
     image_width: 400px
