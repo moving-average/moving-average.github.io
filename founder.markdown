@@ -3,14 +3,13 @@ layout: page
 title: Rianne M. Schouten
 image: /assets/img/foto_rianne.jpg
 intro: |
-  Learn more about the founder of this product
+  Learn more about the founder...
 
-  - **Website:** [https://rianneschouten.github.io/](https://rianneschouten.github.io/)
+  - **Website:** [rianneschouten.github.io](https://rianneschouten.github.io/)
   - **LinkedIn:** [linkedin.com/in/rianneschouten](https://linkedin.com/in/rianneschouten)
   - **PhD thesis:** 
-  - **Resume:** [Find here my resume!](https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)
+  - **Resume:** [Resume](https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)
   - **E-mail:** [r.m.schouten@tue.nl](mailto:r.m.schouten@tue.nl)
-
 
 permalink: /founder
 ---
@@ -34,4 +33,4 @@ Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervisio
 - Prof. Panos Markopoulos (Industrial Design TU/e) 
 - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
 
-<img src="/assets/img/logo_eindhoven.svg" alt="Logo Eindhoven University" style="max-width: 40%;"/>
+![Eindhoven Logo](/assets/img/logo_eindhoven.svg)

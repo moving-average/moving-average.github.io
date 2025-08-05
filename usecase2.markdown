@@ -3,13 +3,12 @@ layout: page
 title: Quality control of math exercises
 image: /assets/img/logo_algebrakit.png
 intro: |
-  **Website:** [http://www.algebrakit.nl/](https://algebrakit.com/)
+  **Website:** [algebrakit.com](https://algebrakit.com/)
 
   **Together with:**
   - Martijn Slob
   - Lieke van den Biggelaar
 ---
-
 
 ## How Algebrakit supports learning platforms
 
@@ -21,6 +20,4 @@ The leading math API for intelligent math question technology
 
 ## View website
 
-<div class="website-preview">
-  <iframe src="https://algebrakit.com/" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
-</div>
+<iframe src="https://algebrakit.com/" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
