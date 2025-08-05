@@ -218,7 +218,6 @@ footer a:hover {
   border-color: #999;
 }
 
-
 .hero-section {
   display: flex;
   align-items: center;
@@ -233,7 +232,6 @@ footer a:hover {
   margin-right: auto;
   gap: 3rem;
 }
-
 
 .hero-image {
   flex: 1;
@@ -255,11 +253,11 @@ footer a:hover {
   padding-right: 2rem; 
 }
 
-
 .hero-text h2 {
-  font-size: 1.9rem;
+  font-size: 2.2rem; /* Groter font voor titels */
   margin-bottom: 1rem;
   font-weight: 600;
+  color: #333;
 }
 
 .hero-text ul {
@@ -270,15 +268,26 @@ footer a:hover {
 
 .hero-text ul li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  font-size: 0.97rem;
+  font-size: 1rem; /* Iets grotere tekst voor de links */
   line-height: 1.6;
   color: #555;
   font-weight: 400;
 }
 
+.hero-text ul li a {
+  color: #0073e6; /* Blauwe kleur voor links */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.hero-text ul li a:hover {
+  color: #005bb5; /* Hover effect: donkerder blauw */
+  text-decoration: underline;
+}
 
 .hero-buttons {
   display: flex;
@@ -293,7 +302,8 @@ footer a:hover {
   font-weight: 600;
   color: white;
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw toegevoegd */
 }
 
 .hero-btn.left {
@@ -302,6 +312,7 @@ footer a:hover {
 
 .hero-btn.left:hover {
   background-color: #002e54;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover schaduw */
 }
 
 .hero-btn.right {
@@ -310,7 +321,23 @@ footer a:hover {
 
 .hero-btn.right:hover {
   background-color: #002e54;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hover schaduw */
 }
+
+/* Toevoegen van iconen naast links */
+.hero-text ul li a::before {
+  content: url('linkedin-icon.svg'); /* Voeg het juiste icoon bestand toe */
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+/* Optioneel: Voeg hover-effecten toe aan de contactinformatie */
+.hero-text ul li a.contact:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
 
 .testimonials-section {
   background-color: #002e54;
