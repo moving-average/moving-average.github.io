@@ -19,15 +19,11 @@
       </div>
       <h1><a href="/" class="site-title">{{ site.title }}</a></h1>
     </div>
-    <nav>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <nav id="mainMenu" class="hidden">
       <a href="/founder">Founder</a>
-      <div class="dropdown">
-        <button class="dropbtn">Use Cases ▾</button>
-        <div class="dropdown-content">
-          <a href="/usecase1">Dyscalculia</a>
-          <a href="/usecase2">Quality Control</a>
-        </div>
-      </div>
+      <a href="/usecase1">Dyscalculia</a>
+      <a href="/usecase2">Quality Control</a>
     </nav>
   </header>
 
@@ -150,6 +146,21 @@
   <footer>
     View on <a href="https://github.com/">GitHub</a>
   </footer>
+
+  <script>
+  function toggleMenu() {
+    document.getElementById("mainMenu").classList.toggle("hidden");
+  }
+  
+  window.addEventListener("click", function (e) {
+    const menu = document.getElementById("mainMenu");
+    const button = document.querySelector(".hamburger");
+    if (!menu.contains(e.target) && !button.contains(e.target)) {
+      menu.classList.add("hidden");
+    }
+  });
+  </script>
+
 </body>
 </html>
 

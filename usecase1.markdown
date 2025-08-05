@@ -7,13 +7,6 @@ hero_alt: Logo image
 hero_image_width: 80%
 
 info_title: Discovering patterns in children's math learning
-info_blocks:
-  - title: Timed math tasks
-    text: Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.
-  - title: Dot enumeration
-    text: Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
-  - title: Key Insight
-    text: Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
 
 testimonials_title: What it is like to work with us
 testimonials:
