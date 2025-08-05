@@ -577,6 +577,22 @@ main.page {
   object-fit: contain;
 }
 
+img[src*="edutenfinlandmath.png"] {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+img[src*="algebrakit.png"] {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 
 
 /* Responsive */
