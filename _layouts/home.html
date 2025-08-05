@@ -89,13 +89,18 @@
     {% endif %}
 
     {% if page.logos %}
-    <section class="logos-section">
+    {% assign iframe_only = page.logos | size == 1 and page.logos[0].iframe %}
+    <section class="logos-section {% if iframe_only %}wide-iframe{% endif %}">
       <div class="logos-wrapper">
         {% for logo in page.logos limit:3 %}
         <div class="logo-item">
           {% if logo.iframe %}
           <div class="website-preview">
-            <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
+            <iframe src="{{ logo.iframe }}" 
+                    width="100%" 
+                    height="400" 
+                    style="border:1px solid #ccc;"{% if logo.width %}style="max-width: {{ logo.width }};"{% endif %}">
+            </iframe>
           </div>
           {% elsif logo.image %}
           <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
@@ -106,6 +111,7 @@
       </div>
     </section>
     {% endif %}
+
 
     {% if page.info_blocks_reversed %}
     <section class="double-info-section">
