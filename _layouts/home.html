@@ -95,6 +95,9 @@
         <div class="info-text">
           <h3>{{ row.title }}</h3>
           <p>{{ row.text | markdownify }}</p>
+          {% if row.html %}
+          {{ row.html }}
+          {% endif %}
         </div>
         <div class="info-image">
           <img src="{{ row.image }}" alt="{{ row.alt | default: 'Illustratie' }}"

@@ -505,6 +505,16 @@ footer a:hover {
   opacity: 0.4;
 }
 
+.highlight-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fff5d6;
+  border-left: 4px solid #d6be76;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 @media (max-width: 768px) {
   .testimonials-wrapper {
     flex-direction: column;

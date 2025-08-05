@@ -34,7 +34,13 @@ info_blocks_reversed:
     image_width: 300px
 
   - title: "Dot enumeration"
-    text: Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
+    text: |
+      Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
+    html: |
+      <div class="highlight-box">
+        <strong>Key Insight:</strong>  
+        Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
+        </div>
     image: /assets/img/algebrakit4.png
     alt: Content creation visual
     image_width: 400px
