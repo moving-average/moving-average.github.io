@@ -40,7 +40,7 @@ info_blocks_reversed:
       <div class="highlight-box">
         <strong>Key Insight:</strong>  
         Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
-        </div>
+      </div>
     image: /assets/img/algebrakit4.png
     alt: Content creation visual
     image_width: 400px
