@@ -88,6 +88,45 @@
     </div>
     {% endif %}
 
+    {% if page.logos %}
+    <section class="logos-section">
+      <div class="logos-wrapper">
+        {% for logo in page.logos limit:3 %}
+        <div class="logo-item">
+          {% if logo.iframe %}
+          <div class="website-preview">
+            <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
+          </div>
+          {% elsif logo.image %}
+          <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
+          {% if logo.width %}style="width: {{ logo.width }};"{% endif %} />
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.info_blocks_reversed %}
+    <section class="double-info-section">
+      {% for row in page.info_blocks_reversed %}
+      <div class="info-row {% if forloop.index == 2 %}reverse{% endif %}">
+        <div class="info-text">
+          <h3>{{ row.title }}</h3>
+          <p>{{ row.text | markdownify }}</p>
+          {% if row.button_text and row.button_link %}
+          <a href="{{ row.button_link }}"><button>{{ row.button_text }}</button></a>
+          {% endif %}
+        </div>
+        <div class="info-image">
+          <img src="{{ row.image }}" alt="{{ row.alt | default: 'Illustratie' }}"
+          {% if row.image_width %}style="width: {{ row.image_width }};"{% endif %} />
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
     <section class="testimonials-section">
       <h2 class="testimonials-title">{{ page.testimonials_title }}</h2>
       <div class="testimonials-wrapper">
@@ -104,45 +143,6 @@
         {% endfor %}
       </div>
     </section>
-
-  {% if page.info_blocks_reversed %}
-  <section class="double-info-section">
-    {% for row in page.info_blocks_reversed %}
-    <div class="info-row {% if forloop.index == 2 %}reverse{% endif %}">
-      <div class="info-text">
-        <h3>{{ row.title }}</h3>
-        <p>{{ row.text | markdownify }}</p>
-        {% if row.button_text and row.button_link %}
-        <a href="{{ row.button_link }}"><button>{{ row.button_text }}</button></a>
-        {% endif %}
-      </div>
-      <div class="info-image">
-        <img src="{{ row.image }}" alt="{{ row.alt | default: 'Illustratie' }}"
-        {% if row.image_width %}style="width: {{ row.image_width }};"{% endif %} />
-      </div>
-    </div>
-    {% endfor %}
-  </section>
-  {% endif %}
-
-  {% if page.logos %}
-  <section class="logos-section">
-    <div class="logos-wrapper">
-      {% for logo in page.logos limit:3 %}
-      <div class="logo-item">
-        {% if logo.iframe %}
-        <div class="website-preview">
-          <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
-        </div>
-        {% elsif logo.image %}
-        <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
-        {% if logo.width %}style="width: {{ logo.width }};"{% endif %} />
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
   </main>
 
   <footer>
