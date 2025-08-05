@@ -24,7 +24,7 @@ intro: |
 
 <section class="section-alt">
   <div class="image-text-block alt">
-    <img src="/assets/img/algebrakit1.png" class="responsive-inline-img" alt="Timed task" />
+    <img src="/assets/img/algebrakit.png" class="responsive-inline-img" alt="Timed task" />
     <div>
       <h3>Timed math tasks</h3>
       <p>Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.</p>
