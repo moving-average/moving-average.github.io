@@ -105,6 +105,25 @@
         {% endfor %}
       </div>
     </section>
+
+  {% if page.logos %}
+  <section class="logos-section">
+    <div class="logos-wrapper">
+      {% for logo in page.logos limit:3 %}
+      <div class="logo-item">
+        {% if logo.iframe %}
+        <div class="website-preview">
+          <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
+        </div>
+        {% elsif logo.image %}
+        <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
+        {% if logo.width %}style="width: {{ logo.width }};"{% endif %} />
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
   </main>
 
   <footer>

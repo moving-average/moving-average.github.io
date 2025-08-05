@@ -21,7 +21,7 @@ testimonials:
 cards:
   - title: About Rianne
     image: /assets/img/wit.svg
-    extra_image_center: /assets/img/logo_eindhoven.png
+    extra_image_center: /assets/img/logo_eindhoven.svg
     extra_image_center_width: 100%
     text: |
       - BSc in Medicine (UU) 
@@ -31,10 +31,8 @@ cards:
       Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
 
       Current: post-doc at TU/e, obtained personal take-off grant (€40K), supervision of 2 PhD candidates, and job searching (academia).
-    link: /usecase1
   - title: Team members MovingAverage
     image: /assets/img/logo.svg
-    extra_image_center: /assets/img/logo_eindhoven.png
     text: |
       - Rianne Schouten (lead) 
 
@@ -48,6 +46,10 @@ cards:
 
       - Prof. Mikko-Jussi Laakso (Learning Analytics, Turku Research Institute for Learning Analytics) 
 
+logos:
+  - image: /assets/img/logo_eindhoven.png
+    alt: Eindhoven
+    width: 100px
 ---
 
 ## Rianne M. Schouten

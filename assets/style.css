@@ -577,6 +577,33 @@ main.page {
   object-fit: contain;
 }
 
+.logos-section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.logos-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-item img {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.website-preview iframe {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .testimonials-wrapper {

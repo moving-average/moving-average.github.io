@@ -26,6 +26,13 @@ testimonials:
     role: Co-promotor, TU/e
     skew: skew-right
 
+logos:
+  - image: /assets/img/logo_eduten.png
+    alt: Eduten
+    width: 100px
+  - image: /assets/img/logo_turku.svg
+    alt: Turku
+    width: 100px
 ---
 
 ## Discovering children with dyscalculia
@@ -42,10 +49,4 @@ Schouten, R.M., Duivesteijn, W., Rasanen, P, Paul, J.M., & Pechenizkiy, M. (2024
   <a href="https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf" class="hero-btn left">View paper</a>
   <a href="#api" class="hero-btn right">See more</a>
 </div>
-
-<div class="logo-row">
-  <img src="/assets/img/logo_eduten.png" alt="Eduten" />
-  <img src="/assets/img/logo_turku.svg" alt="Turku" />
-</div>
-
 

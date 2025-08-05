@@ -26,6 +26,8 @@ testimonials:
     role: Co-promotor, TU/e
     skew: skew-right
 
+logos:
+  - iframe: https://algebrakit.com/
 ---
 
 ## Quality control of math exercises
@@ -39,11 +41,5 @@ The leading math API for intelligent math question technology.
 <div class="hero-buttons">
   <a href="https://algebrakit.com/" class="hero-btn left">View website</a>
   <a href="#api" class="hero-btn right">See more</a>
-</div>
-
-## View website
-
-<div class="website-preview">
-  <iframe src="https://algebrakit.com/" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
 </div>
 
