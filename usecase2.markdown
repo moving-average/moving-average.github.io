@@ -34,7 +34,7 @@ logos:
 
 The leading math API for intelligent math question technology.
 
-**Together with:**
+**Partners:**
   - Martijn Slob (CEO AlgebraKit)
   - Lieke van den Biggelaar (PhD candidate)
 
