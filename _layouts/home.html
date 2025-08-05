@@ -149,14 +149,15 @@
 
   <script>
   function toggleMenu() {
-    document.getElementById("mainMenu").classList.toggle("hidden");
+    const nav = document.getElementById('mainMenu');
+    nav.classList.toggle('hidden');
   }
-  
+
   window.addEventListener("click", function (e) {
-    const menu = document.getElementById("mainMenu");
+    const nav = document.getElementById("mainMenu");
     const button = document.querySelector(".hamburger");
-    if (!menu.contains(e.target) && !button.contains(e.target)) {
-      menu.classList.add("hidden");
+    if (!nav.contains(e.target) && !button.contains(e.target)) {
+      nav.classList.add("hidden");
     }
   });
   </script>
