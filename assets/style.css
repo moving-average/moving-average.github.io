@@ -748,43 +748,43 @@ footer a:hover {
     gap: 1rem;
   }
 
+  @media (max-width: 768px) {
   .double-info-section {
-    padding: 0px 80px;
-    margin: 0px 0px;
-    gap: 3rem;
+    padding: 0 20px; /* Minder padding op mobiel */
   }
 
   .info-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+    flex-direction: column; /* Zorgt ervoor dat de items onder elkaar staan op mobiel */
+    align-items: center; /* Zorgt ervoor dat de tekst en afbeeldingen gecentreerd zijn */
   }
 
   .info-row.reverse {
-    flex-direction: column; 
+    flex-direction: column-reverse; /* In geval van reversie, behouden we de volgorde */
   }
 
   .info-text,
   .info-image {
-    width: 100%;
-    text-align: left;
-  }
-
-  .info-image {
-    text-align: center;
+    width: 100%; /* Beide secties nemen de volledige breedte op mobiel */
+    text-align: center; /* Zorgt ervoor dat tekst en afbeeldingen goed worden uitgelijnd */
   }
 
   .info-text h3 {
-    font-size: 1.25rem;
+    font-size: 1.15rem; /* Kleinere kopteksten voor mobiel */
   }
 
   .info-text p {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 0.95rem; /* Kleinere tekst voor mobiel */
+  }
+}
+
+/* Specifieke stijl voor kleinere schermen (bijv. smartphones) */
+@media (max-width: 480px) {
+  .info-text h3 {
+    font-size: 1rem; /* Nog kleinere kopteksten voor kleinere schermen */
   }
 
-  .info-image img {
-    max-width: 100%;
-    height: auto;
+  .info-text p {
+    font-size: 0.9rem; /* Kleinere tekst voor kleinere schermen */
   }
+}
 }
