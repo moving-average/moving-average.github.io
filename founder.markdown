@@ -8,12 +8,12 @@ hero_image_width: 80%
 info_title: Learn more about the founder of this product
 info_blocks:
   - title: Education
-  - text: |
-     - BSc in Medicine (UU)
-     - MSc in Methodology and Statistics (UU)
-     - PhD in Data Mining (TU/e)Deep error analysis
+    text: |
+      - BSc in Medicine (UU)
+      - MSc in Methodology and Statistics (UU)
+      - PhD in Data Mining (TU/e)Deep error analysis
   - title: Experience
-  - text: |
+    text: |
       - 2025-now Postdoctoral researcher @Eindhoven University of Technology, the Netherlands
       - 2020-2025 PhDcandidate @Eindhoven University of Technology,the Netherlands
       - 2017-2019 Researcher Missing Data & Statistical Consultant @ Utrecht University, the Netherlands
@@ -67,6 +67,6 @@ cards:
 - **E-mail:** [r.m.schouten@tue.nl](mailto:r.m.schouten@tue.nl)
 
 <div class="hero-buttons">
-  <a href="#(https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf)" class="hero-btn left">View resume</a>
-  <a href="#(mailto:r.m.schouten@tue.nl)" class="hero-btn right">Contact</a>
+  <a href="https://rianneschouten.github.io/pdfs/ResumeRianneSchouten.pdf" class="hero-btn left">View resume</a>
+  <a href="mailto:r.m.schouten@tue.nl" class="hero-btn right">Contact</a>
 </div>
