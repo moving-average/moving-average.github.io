@@ -36,13 +36,18 @@
       {% if page.hero_image %}
       <div class="hero-image">
         <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: 'Hero image' }}"
-        {% if page.hero_image_width %}style="width: {{ page.hero_image_width }};"{% endif %} />
+          {% if page.hero_image_width %}style="width: {{ page.hero_image_width }};"{% endif %} />
       </div>
       {% endif %}
       <div class="hero-text">
-        {{ content | markdownify }}
+        <h2>{{ content | markdownify }}</h2>
+        <div class="hero-buttons">
+          <a href="#" class="hero-btn left">Explore</a>
+          <a href="#" class="hero-btn right">Learn More</a>
+        </div>
       </div>
     </div>
+
 
     {% if page.info_title %}
     <section class="info-section">
