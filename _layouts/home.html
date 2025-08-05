@@ -34,9 +34,11 @@
 
   <main>
     <div class="hero-section">
+      {% if page.hero_image %}
       <div class="hero-image">
-        <img src="/assets/img/logo.svg" alt="Logo image" />
+        <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: 'Hero image' }}" />
       </div>
+      {% endif %}
       <div class="hero-text">
         {{ content | markdownify }}
       </div>

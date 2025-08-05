@@ -2,6 +2,8 @@
 layout: home
 title: Home
 
+hero_image: /assets/img/logo.svg
+hero_alt: Logo image
 info_title: Why MovingAverage empowers modern education
 info_blocks:
   - title: Deep error analysis
