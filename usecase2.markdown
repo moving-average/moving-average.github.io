@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Usecase1
+title: Usecase2
 
-hero_image: /assets/img/logo_ville.png
+hero_image: /assets/img/logo_algebrakit.png
 hero_alt: Logo image
 hero_image_width: 80%
 
