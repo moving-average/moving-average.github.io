@@ -19,13 +19,17 @@
       </div>
       <h1><a href="/" class="site-title">{{ site.title }}</a></h1>
     </div>
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-    <nav id="mainMenu" class="hidden">
-      <a href="/founder">Founder</a>
-      <a href="/usecase1">Dyscalculia</a>
-      <a href="/usecase2">Quality Control</a>
-    </nav>
+    <button class="hamburger" onclick="openMenu()">☰</button>
   </header>
+
+  <div id="overlay" class="overlay hidden" onclick="closeMenu()"></div>
+
+  <nav id="sideMenu" class="side-menu hidden">
+    <button class="close-btn" onclick="closeMenu()">✕</button>
+    <a href="/founder">Founder</a>
+    <a href="/usecase1">Dyscalculia</a>
+    <a href="/usecase2">Quality Control</a>
+  </nav>
 
   <main>
     <div class="hero-section">
@@ -148,19 +152,18 @@
   </footer>
 
   <script>
-  function toggleMenu() {
-    const nav = document.getElementById('mainMenu');
-    nav.classList.toggle('hidden');
+  function openMenu() {
+    document.getElementById("sideMenu").classList.add("show");
+    document.getElementById("sideMenu").classList.remove("hidden");
+    document.getElementById("overlay").classList.remove("hidden");
   }
 
-  window.addEventListener("click", function (e) {
-    const nav = document.getElementById("mainMenu");
-    const button = document.querySelector(".hamburger");
-    if (!nav.contains(e.target) && !button.contains(e.target)) {
-      nav.classList.add("hidden");
-    }
-  });
-  </script>
+  function closeMenu() {
+    document.getElementById("sideMenu").classList.remove("show");
+    document.getElementById("sideMenu").classList.add("hidden");
+    document.getElementById("overlay").classList.add("hidden");
+  }
+</script>
 
 </body>
 </html>
