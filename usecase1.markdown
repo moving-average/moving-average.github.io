@@ -3,41 +3,53 @@ layout: page
 title: Discovering children with dyscalculia
 image: /assets/img/logo_ville.png
 intro: |
+  **Paper:**  
+  Schouten, R.M., Duivesteijn, W., Rasanen, P, Paul, J.M., & Pechenizkiy, M. (2024)  
+  [Read full paper →](https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf)
 
-  **Paper:** 
-  Schouten, R.M., Duivesteijn, W., Rasanen, P, Paul, J.M., & Pechenizkiy, M. (2024) [Exceptional Subitizing Patterns: Exploring Mathematical Abilities of Finnish Primary School Children with Piecewise Linear Regression.](https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf) In: Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), pp. 66-82.]
-
-  **Together with:**
-  - Prof. Pekka Räsänen: [pekka.j.rasanen@utu.fi](mailto:pekka.j.rasanen@utu.fi)
-  - Prof. Mikko-Jussi Laakso: [ jacob.paul@unimelb.edu.au](mailto:jacob.paul@unimelb.edu.au)
+  **Partners:**  
+  - Prof. Pekka Räsänen  
+  - Prof. Mikko-Jussi Laakso
 ---
 
-## Discovering subgroups of children with dyscalculia
-
-<div class="image-text-block">
-  <img src="/assets/img/algebrakit1.png" alt="Algebrakit1 image" class="responsive-inline-img" />
-  <div>
-    <p> Per child: 50 items per task. </p>
+<div class="hero-banner">
+  <div class="hero-banner-text">
+    <h2>Discovering patterns in children's math learning</h2>
+    <p>This research explores how to detect early signs of dyscalculia through smart data analysis.</p>
+  </div>
+  <div class="hero-banner-img">
+    <img src="/assets/img/algebrakit1.png" alt="Children's math interface" />
   </div>
 </div>
 
-<div class="image-text-block">
-  <img src="/assets/img/algebrakit3.png" alt="Algebrakit3 image" class="responsive-inline-img" />
-  <div>
-    <p> Per child: as many items as possible in 3 minutes. </p>
+<section class="section-alt">
+  <div class="image-text-block alt">
+    <img src="/assets/img/algebrakit3.png" class="responsive-inline-img" alt="Timed task" />
+    <div>
+      <h3>Timed math tasks</h3>
+      <p>Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.</p>
+    </div>
   </div>
+</section>
+
+<section class="section-white">
+  <div class="image-text-block">
+    <img src="/assets/img/algebrakit4.png" class="responsive-inline-img" alt="Dot task" />
+    <div>
+      <h3>Dot enumeration</h3>
+      <p>
+        Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
+      </p>
+      <div class="highlight-box">
+        <strong>Key Insight:</strong>  
+        Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="logo-row">
+  <img src="/assets/img/logo_eduten.png" alt="Eduten" />
+  <img src="/assets/img/logo_turku.svg" alt="Turku" />
 </div>
 
-## Dot enumeration
-
-<div class="image-text-block">
-  <img src="/assets/img/algebrakit4.png" alt="Algebrakit4 image" class="responsive-inline-img" />
-  <div style="flex: 1; min-width: 0;">
-    <p>The range where you can see the number of dots, is called the <strong>subitizing range</strong>. The range where you have to count the number of dots, is called the <strong>counting range</strong>.</p>
-    <p>These number processing skills are predictors of math learning ability.</p>
-    <p><span style="color: #1d87c2;">Subgroup 1</span>: Children with slow response times, and difficulty with addition tasks --> children typical of dyscalculia</p>
-  </div>
-</div>
-
-<img src="/assets/img/logo_eduten.png" alt="Logo Eduten" style="max-width: 20%;"/>
-<img src="/assets/img/logo_turku.svg" alt="Logo Turku" style="max-width: 40%;"/>
