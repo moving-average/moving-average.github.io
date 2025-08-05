@@ -88,29 +88,6 @@
     </div>
     {% endif %}
 
-    {% if page.logos %}
-      {% assign first_logo = page.logos[0] %}
-      {% assign is_single_iframe = page.logos | size == 1 and first_logo.iframe %}
-
-      <section class="logos-section">
-        <div class="logos-wrapper {% if is_single_iframe %}single-iframe{% endif %}">
-          {% for logo in page.logos limit:3 %}
-          <div class="logo-item">
-            {% if logo.iframe %}
-            <div class="website-preview">
-              <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
-            </div>
-            {% elsif logo.image %}
-            <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
-            {% if logo.width %}style="width: {{ logo.width }};"{% endif %} />
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-      </section>
-    {% endif %}
-
-
     {% if page.info_blocks_reversed %}
     <section class="double-info-section">
       {% for row in page.info_blocks_reversed %}
@@ -129,6 +106,27 @@
       </div>
       {% endfor %}
     </section>
+    {% endif %}
+
+    {% if page.logos %}
+      {% assign first_logo = page.logos[0] %}
+      {% assign is_single_iframe = page.logos | size == 1 and first_logo.iframe %}
+      <section class="logos-section">
+        <div class="logos-wrapper {% if is_single_iframe %}single-iframe{% endif %}">
+          {% for logo in page.logos limit:3 %}
+          <div class="logo-item">
+            {% if logo.iframe %}
+            <div class="website-preview">
+              <iframe src="{{ logo.iframe }}" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
+            </div>
+            {% elsif logo.image %}
+            <img src="{{ logo.image }}" alt="{{ logo.alt | default: 'Logo' }}"
+            {% if logo.width %}style="width: {{ logo.width }};"{% endif %} />
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
     {% endif %}
 
     <section class="testimonials-section">

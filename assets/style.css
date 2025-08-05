@@ -608,4 +608,21 @@ footer a:hover {
   .hero-text {
     max-width: 100%;
   }
+
+   .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .extra-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }

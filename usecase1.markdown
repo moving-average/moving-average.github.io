@@ -56,15 +56,16 @@ logos:
 ## Discovering children with dyscalculia
 
 **Paper:**  
-Schouten, R.M., Duivesteijn, W., Rasanen, P, Paul, J.M., & Pechenizkiy, M. (2024)  
+Exceptional Subitizing Patterns: Exploring Mathematical Abilities of Finnish Primary School Children with Piecewise Linear Regression.
+
+Rianne M. Schouten, Wouter Duivesteijn, Pekka Räsänen, Jacob M. Paul, Mykola Pechenizkiy. (2024) 
 [Read full paper →](https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf)
 
 **Partners:**  
-- Prof. Pekka Räsänen  
-- Prof. Mikko-Jussi Laakso
+  - Prof. Pekka Räsänen  
+  - Prof. Mikko-Jussi Laakso
 
 <div class="hero-buttons">
   <a href="https://rianneschouten.github.io/pdfs/FUNA_ECMLPKDD_2024.pdf" class="hero-btn left">View paper</a>
-  <a href="#api" class="hero-btn right">See more</a>
 </div>
 

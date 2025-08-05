@@ -35,11 +35,10 @@ logos:
 The leading math API for intelligent math question technology.
 
 **Together with:**
-  - Martijn Slob
-  - Lieke van den Biggelaar
+  - Martijn Slob (CEO AlgebraKit)
+  - Lieke van den Biggelaar (PhD candidate)
 
 <div class="hero-buttons">
   <a href="https://algebrakit.com/" class="hero-btn left">View website</a>
-  <a href="#api" class="hero-btn right">See more</a>
 </div>
 
