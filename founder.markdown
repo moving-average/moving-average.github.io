@@ -10,20 +10,14 @@ info_blocks:
   - title: Education
     text: |
       - BSc in Medicine (UU) 
-
       - MSc in Methodology and Statistics (UU)
-
       - PhD in Data Mining (TU/e)Deep error analysis
   - title: Experience
     text: |
       - 2025-now Postdoctoral researcher @Eindhoven University of Technology, the Netherlands
-
       - 2020-2025 PhDcandidate @Eindhoven University of Technology,the Netherlands
-
       - 2017-2019 Researcher Missing Data & Statistical Consultant @ Utrecht University, the Netherlands 
-
       - 2018-2020 Developer Data & Analytics @SVMN;Stakeholder communication & Small team lead 
-
       - 2017 Data Scientist @ DPA Professionals; Consultancy & Traineeship 
 
 testimonials_title: What it is like to work with us
@@ -40,9 +34,8 @@ testimonials:
 cards:
   - title: About Rianne
     image: /assets/img/wit.svg
-    extra_image_left: /assets/img/logo_ville.png
-    extra_image_center: /assets/img/logo_eduten.png
-    extra_image_right: /assets/img/logo_turku.svg
+    extra_image_center: /assets/img/logo_eindhoven.png
+    extra_image_center_width: 100%
     text: |
       Experience outside academia: 3 years. And as independent statistical consultant. Lots of supervision and teaching, lead successful collaborations (hospitals, public health, educational domain).
 

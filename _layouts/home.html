@@ -63,20 +63,24 @@
     <div class="cards">
       {% for card in page.cards %}
       <div class="card">
-        <img src="{{ card.image }}" alt="{{ card.title }}">
+        <img src="{{ card.image }}" alt="{{ card.title }}"
+        {% if card.image_width %}style="width: {{ card.image_width }};"{% endif %} />
         <h3>{{ card.title }}</h3>
         <p>{{ card.text | markdownify }}</p>
         <a href="{{ card.link }}"><button>See more</button></a>
         {% if card.extra_image_left or card.extra_image_center or card.extra_image_right %}
         <div class="extra-images">
           {% if card.extra_image_left %}
-          <img src="{{ card.extra_image_left }}" alt="Extra afbeelding voor {{ card.title }}">
+          <img src="{{ card.extra_image_left }}" alt="Extra afbeelding voor {{ card.title }}"
+          {% if card.extra_image_left_width %}style="width: {{ card.extra_image_left_width }};"{% endif %} />
           {% endif %}
           {% if card.extra_image_center %}
-          <img src="{{ card.extra_image_center }}" alt="Rechter afbeelding voor {{ card.title }}">
+          <img src="{{ card.extra_image_center }}" alt="Extra afbeelding voor {{ card.title }}" 
+          {% if card.extra_image_center_width %}style="width: {{ card.extra_image_center_width }};"{% endif %} />
           {% endif %}
           {% if card.extra_image_right %}
-          <img src="{{ card.extra_image_right }}" alt="Rechter afbeelding voor {{ card.title }}">
+          <img src="{{ card.extra_image_right }}" alt="Extra afbeelding voor {{ card.title }}" 
+          {% if card.extra_image_right_width %}style="width: {{ card.extra_image_right_width }};"{% endif %} />
           {% endif %}
         </div>
         {% endif %}

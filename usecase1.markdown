@@ -4,7 +4,7 @@ title: Usecase1
 
 hero_image: /assets/img/logo_ville.png
 hero_alt: Logo image
-hero_image_width: 100%
+hero_image_width: 80%
 info_title: Discovering patterns in children's math learning
 info_blocks:
   - title: This research explores how to detect early signs of dyscalculia through smart data analysis
@@ -23,12 +23,11 @@ testimonials:
 
 cards:
   - title: Timed math tasks
-    image: /assets/img/algebrakit.png
-    extra_image_center: /assets/img/algebrakit.png
     text: Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.
     link: /usecase1
   - title: Dot enumeration
-    image: /assets/img/witblauw.svg
+    image: /assets/img/algebrakit4.png
+    image_width: 100%
     extra_image_center: /assets/img/logo_algebrakit.png
     text: Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
     link: /usecase2
