@@ -29,50 +29,6 @@ header {
   gap: 1rem;
 }
 
-.hamburger {
-  font-size: 1.8rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  z-index: 1001;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-  padding: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  width: 100%;
-  position: static; /* Belangrijk! Geen absolute positie op mobiel */
-  border-radius: 0;
-}
-
-nav.hidden {
-  display: none;
-}
-
-nav a {
-  display: block;
-  width: 100%;
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  color: #333;
-  background-color: #f7f7f7;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  transition: background-color 0.2s ease;
-}
-
-nav a:hover {
-  background-color: #e2e6ea;
-  border-color: #999;
-}
-
 main {
   flex: 1;
   display: flex;
@@ -568,15 +524,69 @@ footer a:hover {
 
 /* === Slide-in menu styling === */
 .hamburger {
-  font-size: 2rem;
+  font-size: 2rem; /* Grotere knop voor beter zicht */
   background: none;
   border: none;
   cursor: pointer;
   padding: 1rem;
   z-index: 1001;
-  color: #0074b3;
+  color: #0074b3; /* Professionele blauwe kleur */
 }
 
+.hamburger:focus {
+  outline: none; /* Verwijder focusrand voor een nette uitstraling */
+}
+
+/* Navigatie Menu (mobiel en desktop) */
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtiele schaduw voor modern effect */
+  width: 100%;
+  position: static;
+  border-radius: 4px;
+}
+
+/* Verborgen navigatie (side-menu) */
+nav.hidden {
+  display: none;
+}
+
+/* Links in de navigatie */
+nav a {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+  background-color: #e9ecef; /* Subtiele kleurverandering */
+  border-color: #ccc; /* Subtiele randverandering */
+}
+
+nav a.active {
+  background-color: #007bff; /* Professionele blauwe kleur */
+  color: white;
+  border-color: #0056b3;
+}
+
+nav a.active:hover {
+  background-color: #0056b3; /* Donkerdere blauwe kleur bij hover */
+}
+
+/* Side menu (mobiele versie) */
 .side-menu {
   position: fixed;
   top: 0;
@@ -601,19 +611,21 @@ footer a:hover {
   font-size: 1rem;
   font-weight: 500;
   color: #2292c8; 
-  border-bottom: 1px solid #e0e0e0; 
-  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
 
 .side-menu a:hover {
-  background-color: #f5f5f5; 
+  background-color: #f5f5f5; /* Subtiele hover achtergrondkleur */
 }
 
 .side-menu.show {
   transform: translateX(0);
 }
 
+/* Sluitknop van het side-menu */
 .close-btn {
   background: none;
   border: none;
@@ -621,9 +633,10 @@ footer a:hover {
   margin-left: auto;
   margin-bottom: 1rem;
   cursor: pointer;
-  color: #0074b3;
+  color: #0074b3; /* Professionele blauwe kleur */
 }
 
+/* Overlay voor side-menu */
 .overlay {
   position: fixed;
   top: 0;
