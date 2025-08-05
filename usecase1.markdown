@@ -12,45 +12,29 @@ intro: |
   - Prof. Mikko-Jussi Laakso
 ---
 
-<div class="hero-banner">
-  <div class="hero-banner-text">
-    <h2>Discovering patterns in children's math learning</h2>
-    <p>This research explores how to detect early signs of dyscalculia through smart data analysis.</p>
-  </div>
-  <div class="hero-banner-img">
-    <img src="/assets/img/algebrakit3.png" alt="Children's math interface" />
-  </div>
-</div>
+## Discovering patterns in children's math learning
 
-<section class="section-alt">
-  <div class="image-text-block alt">
-    <img src="/assets/img/algebrakit1.png" class="responsive-inline-img" alt="Timed task" />
-    <div>
-      <h3>Timed math tasks</h3>
-      <p>Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.</p>
-    </div>
-  </div>
-</section>
+This research explores how to detect early signs of dyscalculia through smart data analysis.
 
-<section class="section-white">
-  <div class="image-text-block">
-    <img src="/assets/img/algebrakit4.png" class="responsive-inline-img" alt="Dot task" />
-    <div>
-      <h3>Dot enumeration</h3>
-      <p>
-        Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
-      </p>
-      <div class="highlight-box">
-        <strong>Key Insight:</strong>  
-        Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
-      </div>
-    </div>
-  </div>
-</section>
+![Children's math interface](/assets/img/algebrakit3.png)
 
-<div class="logo-row">
-  <img src="/assets/img/logo_eduten.png" alt="Eduten" />
-  <img src="/assets/img/logo_turku.svg" alt="Turku" />
-</div>
+### Timed math tasks
 
+Each child solves as many problems as possible in 3 minutes. Their response speed and accuracy are key indicators.
+
+![Timed task](/assets/img/algebrakit1.png)
+
+### Dot enumeration
+
+Subitizing and counting help us understand cognitive patterns. This is crucial to distinguish between typical development and dyscalculia.
+
+> **Key Insight:**  
+> Children with slower dot processing and poor addition skills are highly indicative of dyscalculia.
+
+![Dot task](/assets/img/algebrakit4.png)
+
+---
+
+![Eduten logo](/assets/img/logo_eduten.png)  
+![Turku logo](/assets/img/logo_turku.svg)
 
