@@ -11,7 +11,10 @@ body {
   padding: 0;
   font-family: "Inter", sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
+  position: relative;
 }
 
 .header {
@@ -269,7 +272,7 @@ footer a:hover {
 }
 
 .hero-btn.left {
-  background-color: white;
+  background-color: #d6be76;
 }
 
 .hero-btn.left:hover {
@@ -278,7 +281,7 @@ footer a:hover {
 }
 
 .hero-btn.right {
-  background-color: white;
+  background-color: #f292b7;
 }
 
 .hero-btn.right:hover {
