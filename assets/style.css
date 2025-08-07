@@ -1,9 +1,15 @@
-html, body {
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  background-color: #ffffff;
-  color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -265,7 +271,7 @@ footer a:hover {
 }
 
 .hero-btn.left {
-  background-color: #f292b7;
+  background-color: #002e54;
 }
 
 .hero-btn.left:hover {
@@ -274,7 +280,7 @@ footer a:hover {
 }
 
 .hero-btn.right {
-  background-color: #f292b7;
+  background-color: #002e54;
 }
 
 .hero-btn.right:hover {
