@@ -791,6 +791,8 @@ nav a.active:hover {
     margin: 0 auto; 
     align-items: center;
     flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 
   .info-row {
@@ -802,6 +804,7 @@ nav a.active:hover {
 
   .info-row.reverse {
     flex-direction: column;
+    align-items: center;
     order: 1;
   }
 
