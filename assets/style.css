@@ -1,10 +1,13 @@
-.html, body {
+html {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
   color: #1a1a1a;
   min-height: 100vh;
+}
+
+body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -265,7 +268,7 @@ footer a:hover {
 }
 
 .hero-btn.left {
-  background-color: #d6be76;
+  background-color: white;
 }
 
 .hero-btn.left:hover {
@@ -274,7 +277,7 @@ footer a:hover {
 }
 
 .hero-btn.right {
-  background-color: #f292b7;
+  background-color: white;
 }
 
 .hero-btn.right:hover {
