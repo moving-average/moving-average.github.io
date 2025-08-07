@@ -265,7 +265,7 @@ footer a:hover {
 }
 
 .hero-btn.left {
-  background-color: #a499c3;
+  background-color: #d6be76;
 }
 
 .hero-btn.left:hover {
@@ -734,6 +734,8 @@ nav a.active:hover {
     padding: 1rem 1.25rem;
     gap: 0;
     position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 
   .logo-title {
