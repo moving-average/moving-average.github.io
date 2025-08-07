@@ -1,4 +1,4 @@
-html, body {
+.html, body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -7,9 +7,10 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -694,9 +695,16 @@ nav a.active:hover {
   }
 
   .hero-buttons {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem; 
+    gap: 1rem;
+  }
+
+    .hero-btn {
+    flex: 1 1 auto;
+    min-width: 130px;
+    text-align: center;
   }
 
   .info-columns {
@@ -710,13 +718,6 @@ nav a.active:hover {
 
   .info-block {
     padding: 0;
-  }
-
-  html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: "Inter", sans-serif;
   }
 
   .header {
