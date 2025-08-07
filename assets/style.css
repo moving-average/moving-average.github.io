@@ -720,11 +720,12 @@ nav a.active:hover {
   }
 
   .header {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.25rem;
-  gap: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    gap: 0;
+    position: sticky;
   }
 
   .logo-title {
