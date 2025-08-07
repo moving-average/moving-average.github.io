@@ -265,7 +265,8 @@ footer a:hover {
 }
 
 .hero-btn.left {
-  background-color: #002e54
+  background-color: #002e54;
+}
 
 .hero-btn.left:hover {
   background-color: #002e54;
