@@ -678,11 +678,25 @@ nav a.active:hover {
 
   .hero-section {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 
   .hero-image,
   .hero-text {
     max-width: 100%;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; 
   }
 
   .info-columns {
@@ -728,15 +742,6 @@ nav a.active:hover {
   .site-title {
     font-size: 1rem;
     font-weight: 600;
-  }
-
-  .hero-section {
-    flex-direction: column;
-  }
-
-  .hero-image,
-  .hero-text {
-    max-width: 100%;
   }
 
    .cards {
